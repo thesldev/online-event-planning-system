@@ -1,0 +1,61 @@
+form {
+    height: 693px;width: 762.6px;margin-right: 0;margin-left: 113px;margin-top: 30px;
+    padding: 20px;
+    margin-top: 30px;
+    padding-top: -30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-left: 90px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 9px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  
+  html-form{
+  	padding-top: 10px;
+  }
+  

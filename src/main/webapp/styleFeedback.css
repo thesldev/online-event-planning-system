@@ -1,0 +1,117 @@
+/* style.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #5f98ce;
+  text-align: center;
+}
+
+h2 {
+  color: #5f98ce;
+}
+
+a {
+  color: #5f98ce;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Feedback Form Styles */
+form {
+  margin: 20px auto;
+  width: 400px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #5f98ce;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+input[type="submit"] {
+  background-color: #5f98ce;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e7abf;
+}
+
+/* Edit Feedback Styles */
+input[type="hidden"] {
+  display: none;
+}
+
+/* Feedback List Styles */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  background-color: #5f98ce;
+  color: white;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.actions a {
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.actions .edit {
+  background-color: #5f98ce;
+  color: white;
+}
+
+.actions .edit:hover {
+  background-color: #3e7abf;
+}
+
+.actions .delete {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.actions .delete:hover {
+  background-color: #c0392b;
+}

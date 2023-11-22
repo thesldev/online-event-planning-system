@@ -1,0 +1,20 @@
+library management system
+
+
+Actore
+1. user-registered user
+2. system admin - librarian
+3. Assistance librarian - check payment, add books to the web, 
+
+
+
+registered user
+01. log-in 
+02. get membership card
+03. Search books in the web
+04. If book is available, request the book(This request goes to Assistance librarian and he/she mark the borrowed date and return date.)
+05. return the book physically.
+
+Assistance librarian
+01. add books to the book store
+02. 
